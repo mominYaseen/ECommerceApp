@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        >
+        <ImageView
+            android:id="@+id/rv_img"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@color/teal_700"
+            />
+        <TextView
+            android:id="@+id/rv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="LG Monitor"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:id="@+id/rv_price"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="17,999"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:id="@+id/rv_des"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="this is a very good moniot"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+
+            />
+        <TextView
+            android:id="@+id/rv_rating"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="4"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+
+            />
+    </LinearLayout>
+
+
+
